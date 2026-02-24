@@ -117,7 +117,7 @@ def main():
         f"P(Profit > 0): {pr_win:.2%}"
         )
         plt.xlabel("Total Profit ($)")
-        plt.ylabel(f"Probability per ${BIN_SIZE:.2f} bin and cost per play ${COST_PER_PLAY:.0f}")
+        plt.ylabel(f"Probability per {BIN_SIZE:.2f} USD bin (cost per play {COST_PER_PLAY:.0f} USD)")
         plt.plot(x_vals, pmfn, lw=1.2, label="Exact (FFT)")
         ax = plt.gca()
         ax.xaxis.set_major_formatter(mtick.FuncFormatter(lambda x, pos: f"${x:,.0f}"))
