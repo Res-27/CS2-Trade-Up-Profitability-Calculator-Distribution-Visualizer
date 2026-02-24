@@ -35,3 +35,13 @@ For each n in NS, the script saves:
 Notes:
 > Profit values are binned (e.g. $20 bins) for performance and cleaner plots.
 > The multi-play distribution is computed using FFT convolution, which is much faster than repeated direct convolution for large n.
+
+## Sample Output
+
+### Profit Distribution Graph
+![Sample profit distribution graph](assets/profit_pmf_n8.png)
+
+### Example CSV Outputs
+- [Summary stats (`summary_ns.csv`)](sample_outputs/summary_ns.csv)
+- [Profit PMF (`profit_pmf_n8.csv`)](sample_outputs/profit_pmf_n8.csv)
+- [Combined PMFs (`all_pmfs_long.csv`)](sample_outputs/all_pmfs_long.csv)
