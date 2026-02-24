@@ -39,9 +39,9 @@ Notes:
 ## Sample Output
 
 ### Profit Distribution Graph
-![Sample profit distribution graph](sample_outputs/profit_pmf_n8.png)
+![Sample profit distribution graph](sample_outputs/profit_pmf_n10.png)
 
 ### Example CSV Outputs
 - [Summary stats (`summary_ns.csv`)](sample_outputs/summary_ns.csv)
-- [Profit PMF (`profit_pmf_n8.csv`)](sample_outputs/profit_pmf_n8.csv)
+- [Profit PMF (`profit_pmf_n8.csv`)](sample_outputs/profit_pmf_n10.csv)
 - [Combined PMFs (`all_pmfs_long.csv`)](sample_outputs/all_pmfs_long.csv)
